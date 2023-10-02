@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Hanken+Grotesk:wght@500&family=Inter&family=Noto+Serif&family=Poppins:wght@500&family=Preahvihear&family=Roboto:wght@400;500&display=swap');
+
+
+
+
+                      /* Utility Class */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(240, 22%, 92%);
+}
+
+.container {
+  max-width: 1180px;
+  margin-inline: auto;
+  overflow: hidden;
+}
+
+.para-class{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  color: hsl(211, 10%, 45%);
+}
+
+
+
+
+                         /* container-1 */
+
+.width-div {
+  max-width: 410px;
+  margin: auto 55px
+}
+
+
+
+.container-1 {
+  width: 550px;
+  height: auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px 22px 2px;
+  margin: 40px auto 8px;
+}
+
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.div-header {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 420px;
+  margin-top: -13px;
+}
+
+.div-header img {
+  width: 25px;
+}
+
+.width-div {
+  padding-block: 16px;
+}
+
+.para-div {
+  margin-top: 15px;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.right-content span {
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0;
+  color: hsl(238, 40%, 52%);
+}
+
+.name-class {
+  color: hsl(212, 24%, 26%);
+}
+
+.left-content {
+  gap: 15px;
+}
+
+
+
+
+
+                           /* Side-button  */
+
+.button-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: -98px;
+}
+
+.custom-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(240, 22%, 92%);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-icon {
+  font-size: 24px;
+  color: hsl(211, 10%, 45%);
+}
+
+.button-number {
+  color: hsl(238, 40%, 52%);
+  font-size: 16px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.reply img {
+  width: 16px;
+}
+
+.reply {
+  gap: 5px;
+}
+
+
+                      /* container-2 */
+.para-class-2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  color: hsl(211, 10%, 45%);
+}
+
+
+.name-class-2 {
+  color: hsl(212, 24%, 26%);
+}
+
+.button-number-2{
+  color: hsl(238, 40%, 52%);
+  font-size: 16px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+
+.container-2 {
+  width: 550px;
+  height: auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px 22px 2px;
+  margin: 15px auto 8px;
+}
+
+                       /* container-3 */
+
+.container-3 {
+  width: 470px;
+  height: auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px 22px 2px;
+  margin: 15px 394px;
+}
+
+.para-class-3{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  color: hsl(211, 10%, 45%);
+}
+
+
+.name-class-3 {
+  color: hsl(212, 24%, 26%);
+}
+
+.button-number-3{
+  color: hsl(238, 40%, 52%);
+  font-size: 16px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+
+
+                 /* container-4 */
+
+.para-class-4{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  color: hsl(211, 10%, 45%);
+}
+
+
+.name-class-4 {
+  color: hsl(212, 24%, 26%);
+}
+
+.button-number-4{
+  color: hsl(238, 40%, 52%);
+  font-size: 16px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+
+.container-4 {
+  width: 470px;
+  height: auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px 22px 2px;
+  margin: 15px 394px;
+}
+
+                       /* comment-container*/
+
+.container-5{
+  width: 550px;
+  height: auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px 22px 2px;
+  margin: 15px auto 8px;
+  display: none;
+}
+
+
+
+.input-div {
+  justify-content: space-evenly;
+}
+
+.input-div img {
+  width: 32px;
+}
+
+.input {
+  width: 375px;
+  height: 75px;
+  text-align: left;
+  line-height: normal;
+   vertical-align: top; 
+  padding-top: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comment-input-div{
+  position: relative;
+}
+
+.input::placeholder{
+  font-size: 14px; 
+  color: #999; 
+}
+
+
+
+.comment-img-div img {
+  position: relative;
+  top: -20px;
+  left: -5px
+}
+
+.comment-button-div{
+  position: relative;
+  top: -20px;
+  left: 5px;
+  }
+
+.comment-button{
+  border: none;
+  background-color: hsl(238, 40%, 52%);
+  padding: 8px;
+  width: 60px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
